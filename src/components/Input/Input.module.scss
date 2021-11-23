@@ -1,3 +1,24 @@
 .input {
   width: 100%;
+  border: 2px solid #f1faee;
+  border-radius: 40px;
+  height: 40px;
+  padding: 0 11px;
+  font-size: 16px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }

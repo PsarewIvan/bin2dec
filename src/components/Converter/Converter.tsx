@@ -41,7 +41,10 @@ const Converter = () => {
 
   return (
     <div className={s.wrapper}>
-      <Button label={method} onClick={onMethodChange} />
+      <div className={s.block}>
+        <span className={s.text}>Method:</span>
+        <Button label={method} onClick={onMethodChange} />
+      </div>
       <Input method={method} value={value} onChange={setValue} />
       <Button label="Convert!" onClick={onConvert} />
       <div>{`result: ${result}`}</div>

@@ -1,6 +1,9 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+.app {
+  max-width: 420px;
+  margin: 0 auto;
   padding: 1em 2em;
+}
+
+.title {
+  margin: 0 0 1em;
 }
